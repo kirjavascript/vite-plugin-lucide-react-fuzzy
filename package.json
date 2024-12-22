@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-lucide-react-fuzzy",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Import hallucinated lucide-react icons",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -20,8 +20,10 @@
     "build": "node build.js",
     "prepublishOnly": "npm run build"
   },
+  "devDependencies": {
+    "esbuild": "^0.24.2"
+  },
   "dependencies": {
-    "esbuild": "^0.24.2",
     "fast-dice-coefficient": "^1.0.3",
     "lucide-react": "^0",
     "parse-imports": "^2.2.1"
