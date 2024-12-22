@@ -12,7 +12,7 @@ npm i vite-plugin-lucide-react-fuzzy -D
 
 ```ts
 import { defineConfig } from 'vite';
-import lucideReactFuzzy from './plugin';
+import lucideReactFuzzy from 'vite-plugin-lucide-react-fuzzy';
 
 export default defineConfig({
   plugins: [
