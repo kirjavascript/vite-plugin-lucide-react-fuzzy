@@ -1,0 +1,42 @@
+{
+  "name": "vite-plugin-lucide-react-fuzzy",
+  "version": "0.0.0",
+  "description": "Import hallucinated lucide-react icons",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirjavascript/vite-plugin-lucide-react-fuzzy.git"
+  },
+  "author": "kirjavascript",
+  "license": "cake",
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "esbuild": "^0.24.2",
+    "fast-dice-coefficient": "^1.0.3",
+    "lucide-react": "^0",
+    "parse-imports": "^2.2.1"
+  },
+  "keywords": [
+    "vite",
+    "build",
+    "plugin",
+    "lucide",
+    "lucide-react",
+    "fuzzy",
+    "llm"
+  ],
+  "files": [
+    "./dist/index.js",
+    "./dist/index.mjs"
+  ]
+}
